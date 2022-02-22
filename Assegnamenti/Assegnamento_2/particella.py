@@ -4,7 +4,7 @@ class Particle:
     """La classe rappresenta una generica particella"""
     def __init__(self, mass, charge, name, momentum = 0.):
     
-#solo momentum è opzionale e lo iniziallizzo a zero
+#solo momentum è opzionale e lo inizializzo a zero
 
         self._mass = mass
         self._charge = charge
